@@ -18,6 +18,10 @@ yarn-error.log
 /.vscode
 *.cache
 
+composer.lock
+yarn.lock
+package-lock.json
+
 
 
 
