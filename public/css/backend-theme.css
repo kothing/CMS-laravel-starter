@@ -3261,7 +3261,7 @@ html:not([dir=rtl]) .input-group.has-validation > .dropdown-toggle:nth-last-chil
   border-bottom-left-radius: 0;
 }
 html:not([dir=rtl]) .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-  margin-left: -1px;
+  margin-left: 4px;
 }
 *[dir=rtl] .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-right: -1px;
