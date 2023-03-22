@@ -8272,53 +8272,77 @@ html:not([dir=rtl]) .sidebar-nav .nav-group-items .nav-link .nav-icon {
 }
 
 @media (min-width: 768px) {
-  .sidebar-narrow-unfoldable:not(:hover), .sidebar-narrow {
+  /* .sidebar-narrow-unfoldable:not(:hover), */
+  .sidebar-narrow-unfoldable,
+  .sidebar-narrow {
     z-index: 1031;
     flex: 0 0 4rem;
     width: 4rem;
     padding-bottom: 3rem;
     overflow: visible;
   }
-  .sidebar-fixed.sidebar-narrow-unfoldable:not(:hover), .sidebar-fixed.sidebar-narrow {
+  /* .sidebar-fixed.sidebar-narrow-unfoldable:not(:hover), */
+  .sidebar-fixed.sidebar-narrow-unfoldable,
+  .sidebar-fixed.sidebar-narrow {
     z-index: 1031;
     width: 4rem;
   }
-  .sidebar-narrow-unfoldable:not(:hover) .sidebar-brand-full, .sidebar-narrow .sidebar-brand-full {
+  /* .sidebar-narrow-unfoldable:not(:hover) .sidebar-brand-full, */
+  .sidebar-narrow-unfoldable .sidebar-brand-full,
+  .sidebar-narrow .sidebar-brand-full {
     display: none;
   }
-  .sidebar-narrow-unfoldable:not(:hover) .sidebar-brand-narrow, .sidebar-narrow .sidebar-brand-narrow {
+  /* .sidebar-narrow-unfoldable:not(:hover) .sidebar-brand-narrow, */
+  .sidebar-narrow-unfoldable .sidebar-brand-narrow,
+  .sidebar-narrow .sidebar-brand-narrow {
     display: block;
   }
-  .sidebar-narrow-unfoldable:not(:hover) .d-narrow-none, .sidebar-narrow .d-narrow-none,
-.sidebar-narrow-unfoldable:not(:hover) .nav-label,
-.sidebar-narrow .nav-label,
-.sidebar-narrow-unfoldable:not(:hover) .nav-title,
-.sidebar-narrow .nav-title,
-.sidebar-narrow-unfoldable:not(:hover) .nav-group-items,
-.sidebar-narrow .nav-group-items,
-.sidebar-narrow-unfoldable:not(:hover) .sidebar-footer,
-.sidebar-narrow .sidebar-footer,
-.sidebar-narrow-unfoldable:not(:hover) .sidebar-form,
-.sidebar-narrow .sidebar-form,
-.sidebar-narrow-unfoldable:not(:hover) .sidebar-header,
-.sidebar-narrow .sidebar-header {
+  /* .sidebar-narrow-unfoldable:not(:hover) .d-narrow-none, */
+  .sidebar-narrow-unfoldable .d-narrow-none,
+  .sidebar-narrow .d-narrow-none,
+  /* .sidebar-narrow-unfoldable:not(:hover) .nav-label, */
+  .sidebar-narrow-unfoldable .nav-label,
+  .sidebar-narrow .nav-label,
+  /* .sidebar-narrow-unfoldable:not(:hover) .nav-title, */
+  .sidebar-narrow-unfoldable .nav-title,
+  .sidebar-narrow .nav-title,
+  /* .sidebar-narrow-unfoldable:not(:hover) .nav-group-items, */
+  .sidebar-narrow-unfoldable .nav-group-items,
+  .sidebar-narrow .nav-group-items,
+  /* .sidebar-narrow-unfoldable:not(:hover) .sidebar-footer, */
+  .sidebar-narrow-unfoldable .sidebar-footer,
+  .sidebar-narrow .sidebar-footer,
+  /* .sidebar-narrow-unfoldable:not(:hover) .sidebar-form, */
+  .sidebar-narrow-unfoldable .sidebar-form,
+  .sidebar-narrow .sidebar-form,
+  /* .sidebar-narrow-unfoldable:not(:hover) .sidebar-header, */
+  .sidebar-narrow-unfoldable .sidebar-header,
+  .sidebar-narrow .sidebar-header {
     height: 0 !important;
     padding: 0;
     margin: 0;
     visibility: hidden;
     opacity: 0;
   }
-  .sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler, .sidebar-narrow .sidebar-toggler {
+  /* .sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler, */
+  .sidebar-narrow-unfoldable .sidebar-toggler,
+  .sidebar-narrow .sidebar-toggler {
     position: fixed;
     bottom: 0;
   }
-  html:not([dir=rtl]) .sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler::before, html:not([dir=rtl]) .sidebar-narrow .sidebar-toggler::before {
+  /* html:not([dir=rtl]) .sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler::before, */
+  html:not([dir=rtl]) .sidebar-narrow-unfoldable .sidebar-toggler::before,
+  html:not([dir=rtl]) .sidebar-narrow .sidebar-toggler::before {
     transform: rotate(-180deg);
   }
-  *[dir=rtl] .sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler::before, *[dir=rtl] .sidebar-narrow .sidebar-toggler::before {
+  /* *[dir=rtl] .sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler::before, */
+  *[dir=rtl] .sidebar-narrow-unfoldable .sidebar-toggler::before,
+  *[dir=rtl] .sidebar-narrow .sidebar-toggler::before {
     transform: rotate(0deg);
   }
-  .sidebar-end.sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler::before, .sidebar-end.sidebar-narrow .sidebar-toggler::before {
+  /* .sidebar-end.sidebar-narrow-unfoldable:not(:hover) .sidebar-toggler::before, */
+  .sidebar-end.sidebar-narrow-unfoldable .sidebar-toggler::before,
+  .sidebar-end.sidebar-narrow .sidebar-toggler::before {
     transform: rotate(0deg);
   }
 }
