@@ -22,6 +22,16 @@ Pass: secret
 
 ```
 
+## Install
+
+```
+composer install
+```
+
+```
+php artisan migrate:fresh --seed
+```
+
 ## Demo Data
 If you want to test the application on you local with additional demo data you may use the following command. By using this you can truncate the `posts, categories, tags and comments` table and insert new demo data.
 
